@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+Pipfile.lock
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +128,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# VS code
+.vscode/
+
+# Project personal info
+persistence
+bot_token.py
